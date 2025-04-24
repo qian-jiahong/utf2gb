@@ -25,8 +25,6 @@ const inputDir = pInputDir
 const extStr = pExtStr ? pExtStr.split(',').map(e => e.trim()).filter(e => e) : [];
 let targetEncoding = pEncoding
 const outputDir = path.join(pOutputDir || ".", defaultOutputDir)
-console.log(`outputDir：${outputDir}`);
-// process.exit(1);
 
 function convertFilesInDir(dir) {
     const files = fs.readdirSync(dir);
