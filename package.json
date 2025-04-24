@@ -1,0 +1,35 @@
+{
+  "name": "utf2gb",
+  "version": "1.0.0",
+  "description": "批量将 UTF-8 编码文件转换为 GB2312 / GB18030，保留目录结构的 CLI 工具",
+  "main": "./bin/utf2gb.js",
+  "bin": {
+    "utf2gb": "bin/utf2gb.js"
+  },
+  "scripts": {
+    "test": "utf2gb ./a"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qian-jiahong/utf2gb.git"
+  },
+  "keywords": [
+    "utf",
+    "gbk",
+    "gb2312",
+    "gb18030"
+  ],
+  "author": "qian jia hong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qian-jiahong/utf2gb/issues"
+  },
+  "homepage": "https://github.com/qian-jiahong/utf2gb#readme",
+  
+  "type": "module",
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "chardet": "^0.8.0",
+    "iconv-lite": "^0.6.3"
+}
+}
